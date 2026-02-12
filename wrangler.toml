@@ -9,7 +9,7 @@ bindings = [
 
 [[migrations]]
 tag = "v1"
-new_classes = ["WRMonitorDO"]
+new_sqlite_classes = ["WRMonitorDO"]
 
 [vars]
 ZONE_ID = "YOUR_ZONE_ID"
