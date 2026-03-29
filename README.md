@@ -61,16 +61,7 @@ Replace the contents of your project folder with the three essential files from 
 
 ## ⚙️ Configuration
 
-### Step 1: Set API Secrets
-
-Create a Cloudflare API Token with **Waiting Rooms: Read** permissions, then securely upload it to your worker:
-
-```bash
-wrangler secret put CF_API_TOKEN
-
-```
-
-### Step 2: Configure Environment Variables
+### Step 1: Configure Environment Variables
 
 Edit your `wrangler.toml` and provide your specific identifiers:
 
@@ -79,6 +70,15 @@ Edit your `wrangler.toml` and provide your specific identifiers:
 | `ZONE_ID` | Your Cloudflare Zone ID |
 | `WR_ID` | The specific Waiting Room ID to monitor |
 | `DASH_KEY` | *(Optional)* A simple shared key. Access via `?k=YOUR_KEY` |
+
+### Step 2: Set API Secrets
+
+Create a Cloudflare API Token with **Waiting Rooms: Read** permissions, then securely upload it to your worker:
+
+```bash
+wrangler secret put CF_API_TOKEN
+
+```
 
 ---
 
