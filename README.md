@@ -1,6 +1,3 @@
-This version is optimized specifically for GitHub’s Markdown renderer (`GFM`). I’ve added a clean header, used consistent iconography, improved the table formatting, and ensured the architecture diagram looks sharp in both light and dark modes.
-
-
 # 🚦 monitor-wr — Waiting Room Live Monitor
 
 A self-hosted, faster-updating dashboard for Cloudflare Waiting Rooms. Deploys entirely on **Cloudflare Workers + Durable Objects** — no external infrastructure needed.
