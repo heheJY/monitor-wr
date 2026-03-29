@@ -139,5 +139,3 @@ Set `DASH_KEY` in your `vars`. The dashboard will only load if you append `?k=YO
 **Disclaimer:** *THIS SOFTWARE IS PROVIDED AS-IS. CLOUDFLARE IS NOT LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES ARISING FROM ITS USE.*
 
 ---
-
-Would you like me to generate the **`src/index.js`** code for you so you can copy it straight into your project?
