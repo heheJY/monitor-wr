@@ -15,9 +15,8 @@
 
 ### Faster Monitoring Dashboard for Cloudflare Waiting Rooms
 
-Deploy a **Cloudflare Worker + Durable Object** to visualize your Waiting Room metrics in real-time without manual refreshes.
+Deploy a **Cloudflare Worker + Durable Object** to visualize your Waiting Room metrics faster
 
-* **Real-time Metrics:** Estimated Active, Estimated Queued, and Max Wait time.
 * **Live Updates:** Powered by **Server-Sent Events (SSE)**.
 * **Persistence:** History is stored in a Durable Object (charts persist across page reloads).
 
