@@ -13,7 +13,7 @@
  
 # 📊 monitor-wr — Waiting Room Live Monitor
 
-### Real-time Dashboard for Cloudflare Waiting Rooms
+### Faster Monitoring Dashboard for Cloudflare Waiting Rooms
 
 Deploy a **Cloudflare Worker + Durable Object** to visualize your Waiting Room metrics in real-time without manual refreshes.
 
